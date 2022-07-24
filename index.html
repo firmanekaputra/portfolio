@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-md text-primary block py-2">Firman Eka Putra</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="navMenu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">Beranda</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">Portfolio</a>
+                </li>
+                <li class="group">
+                  <a href="#sosmed" class="text-base text-dark py-1 mx-8 flex group-hover:text-primary">Sosial Media</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36 lg:mt-5">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua ✋, saya <span class="block font-bold text-dark text-3xl mt-1 lg:text-5xl">Firman Eka Putra</span></h1>
+            <h2 class="font-medium text-seccondary text-lg mb-5 lg:text-2xl">Student</h2>
+            <p class="font-medium text-seccondary mb-10 leading-relaxed">Selamat datang di web portfolio saya</p>
+
+            <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative lg:mt-0 lg:right-0">
+              <img src="firman.png" alt="Firman" class="max-w-full mx-auto" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Yuk Belajar Web Programming di WPU</h2>
+            <p class="font-medium text-base text-seccondary max-w-xl lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum id voluptate necessitatibus. Nobis, aliquid dolore!</p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
+            <p class="font-medium text-base text-seccondary mb-6 lg:text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque accusamus, architecto ad nesciunt laborum recusandae maiores doloribus corrupti.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4">Project</h2>
+            <p class="font-medium text-md text-seccondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos libero debitis necessitatibus sapiente quasi sunt, eos est odit voluptates natus.</p>
+          </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+          <div class="mb-12 p-4 md:w-1/2 lg:w-4/12 flex group rounded-full">
+            <div class="rounded-full shadow-md overflow-hidden lg:w-[280px] lg:h-[280px] hover:blur-md hover:rotate-45 transition duration-500">
+              <img src="excel.jpg" alt="Microsoft Excel" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-sm text-transparent mt-5 mb-3 ml-3 absolute group-hover:text-orange-400 transition duration-700">Microsoft Excel</h3>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2 lg:w-4/12 flex group rounded-full">
+            <div class="rounded-full shadow-md overflow-hidden lg:w-[315px] lg:h-[315px] hover:blur-md hover:rotate-45 transition duration-500">
+              <img src="Word.png" alt="Microsoft Word" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-3xl text-transparent mt-5 mb-3 ml-3 absolute group-hover:text-slate-500 transition duration-700">Microsoft Word</h3>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2 lg:w-4/12 flex group rounded-full">
+            <div class="rounded-full shadow-md overflow-hidden lg:w-[280px] lg:h-[280px] hover:blur-md hover:rotate-45 transition duration-500">
+              <img src="luffy.jpg" alt="Luffy Tribute Page" width="w-full" />
+            </div>
+            <h3 class="font-semibold text-sm text-transparent mt-5 mb-3 ml-3 absolute group-hover:text-orange-400 transition duration-700">Luffy Tribute Page</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="sosmed" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold text-dark text-3xl mb-4">My Social Media</h2>
+            <p class="font-medium text-md text-seccondary"></p>
+          </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+          <div class="mb-12 p-4 w-1/6">
+            <div class="w-[30px] h-[30px] lg:w-[60px] lg:h-[60px] hover:scale-110 transition duration-300">
+              <a href="https://wa.me/+6281357127241" target="_blank" rel="noopener noreferrer"><img src="WhatsApp.png" alt="WhatsApp" width="w-full" /></a>
+            </div>
+          </div>
+          <div class="mb-12 p-4 w-1/6">
+            <div class="w-[18px] h-[18px] lg:w-[35px] lg:h-[35px] md:mt-1 hover:scale-110 transition duration-300">
+              <a href="http://" target="_blank" rel="noopener noreferrer"><img src="linkedin.png" alt="Linkedin" width="w-full" /></a>
+            </div>
+          </div>
+          <div class="mb-12 p-4 w-1/6">
+            <div class="w-[30px] h-[30px] lg:w-[60px] lg:h-[60px] hover:scale-110 transition duration-300">
+              <a href="https://www.youtube.com/channel/UC0GS3mzAio0alCK2b_PvblQ" target="_blank" rel="noopener noreferrer"><img src="YouTube.wine.svg" alt="YouTube" width="w-full" /></a>
+            </div>
+          </div>
+          <div class="mb-12 p-4 w-1/6">
+            <div class="w-[35px] h-[35px] lg:w-[75px] lg:h-[75px] hover:scale-110 transition duration-300">
+              <a href="https://www.instagram.com/firman_eka_putra10/" target="_blank" rel="noopener noreferrer"><img src="Instagram.wine.svg" alt="Instagram" width="w-full" /></a>
+            </div>
+          </div>
+          <div class="mb-12 p-4 w-1/6">
+            <div class="w-[18px] h-[18px] lg:w-[40px] lg:h-[40px] md:mt-1 hover:scale-110 transition duration-300">
+              <a href="https://www.facebook.com/profile.php?id=100082027052775" target="_blank" rel="noopener noreferrer"><img src="Facebook.svg.png" alt="Facebook" width="w-full" /></a>
+            </div>
+          </div>
+          <div class="mb-12 p-4 w-1/6">
+            <div class="w-[18px] h-[18px] lg:w-[40px] lg:h-[40px] md:mt-1 hover:scale-110 transition duration-300">
+              <a href="https://tiktok.com/@firman_eka_putra" target="_blank" rel="noopener noreferrer"><img src="tiktok.webp" alt="Tiktok" width="w-full" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-dark pt-12 pb-6">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w1/3">
+            <h2 class="font-bold text-xl text-white mb-5">Firman Eka Putra</h2>
+            <h3 class="font-bold text-base mb-2">Hubungi Saya</h3>
+            <p class="text-xs">firmanekaputra10@gmail.com</p>
+          </div>
+        </div>
+        <div class="w-full pt-10 border-t border-slate-700"></div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
